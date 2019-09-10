@@ -3,7 +3,7 @@ a piwigo docker image
 
 ## Content 
 * mysql 5
-* linuxserver/piwigo
+* linuxserver/piwigo (https://github.com/linuxserver/docker-piwigo)
 
 ## Start
 Make sure you have docker-compose installed
