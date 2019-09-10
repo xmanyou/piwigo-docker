@@ -1,0 +1,18 @@
+version: "3"
+services:
+  piwigo:
+    image: linuxserver/piwigo
+    network_mode: bridge
+    ports:
+      - 8899:80
+    links:
+      - db
+
+  db:
+    image: mysql:5
+    network_mode: bridge
+    environment:
+      MYSQL_USER: "piwigo"
+      MYSQL_PASSWORD: "piwigo"
+      MYSQL_DATABASE: "piwigo"
+      MYSQL_RANDOM_ROOT_PASSWORD: "true"
