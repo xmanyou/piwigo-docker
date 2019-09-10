@@ -1,5 +1,8 @@
-# piwigo docker
-a piwigo docker image
+# Install Piwigo with Docker in minutes
+a Piwigo docker image
+
+## 中文文档
+https://xmanyou.com/install-piwigo-with-docker-in-minutes/
 
 ## Content 
 * mysql 5
